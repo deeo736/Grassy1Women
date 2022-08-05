@@ -1,0 +1,122 @@
+/*!
+ * Bootstrap Grid v5.1.0 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+  width: 100%;
+  padding-right: var(--bs-gutter-x, 0.75rem);
+  padding-left: var(--bs-gutter-x, 0.75rem);
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (max-width: 1120px) {
+    .hero_area {
+        height: auto;
+    }
+
+    .hero_btn-box {
+        margin-bottom: 150px;
+    }
+}
+@media (max-width: 992px) {
+    .custom_nav-container {
+        flex-direction: row;
+    }
+}
+@media (max-width: 768px) {
+    .mission_section .mission_section .container {
+        flex-direction: column;
+    }
+
+    .mission_section .mission_section .container {
+        flex-direction: column;
+    }
+
+    .mission_section .mission_section {
+        width: 90%;
+    }
+
+        .mission_section .mission_section .container > div {
+            width: 95%;
+        }
+
+    .mission_section .detail a {
+        margin: 25px auto 35px auto;
+    }
+
+    .mission_section .detail a {
+        background-color: #00ff00;
+        color: #ffffff;
+    }
+
+    .client_section .client_container {
+        width: 100%;
+    }
+
+    .client_section .carousel-indicators {
+        justify-content: center;
+    }
+}
+@media (max-width: 576px) {
+    .hero_section h1 {
+        font-size: 58px;
+    }
+
+    .product_section .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product_section .img-box.box-1,
+    .product_section .img-box.box-3,
+    .product_section .img-box.box-2,
+    .product_section .img-box.box-4 {
+        width: auto;
+        margin: 15px 25px;
+    }
+
+    .client_section .client_container {
+        flex-direction: column;
+    }
+
+    .client_section .img_box {
+        margin-bottom: 25px;
+    }
+
+    .client_section .detail_box {
+        flex-direction: column;
+        text-align: center;
+    }
+
+        .client_section .detail_box h5 {
+            flex-direction: row;
+        }
+}
+
+@media (max-width: 480px) {
+    .hero_section h1 {
+        font-size: 36px;
+    }
+}
+
+@media (max-width: 420px) {
+}
+
+@media (max-width: 360px) {
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+    

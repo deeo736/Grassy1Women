@@ -1,9 +1,11 @@
 ﻿using GrassyWomen.Models;
+
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
+
 
 namespace GrassyWomen.Controllers
 {
+
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -17,13 +19,43 @@ namespace GrassyWomen.Controllers
         {
             return View();
         }
+        public IActionResult Mission()
+        {
+            return View();
+        }
+        public IActionResult Client()
+        {
+            return View();
+        }
+        public IActionResult Contact()
+        {
+            return View();
+        }
 
-      
+        public IActionResult Product()
+        {
+            return View();
+        }
+        public IActionResult Blog()
+        {
+            return View();
+        }
+        public IActionResult Faq()
+        {
+            return View();
+        }
+        public IActionResult Gallery()
+        {
+            return View();
+        }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+
+        public IActionResult Privacy()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View();
+
         }
+
     }
 }
